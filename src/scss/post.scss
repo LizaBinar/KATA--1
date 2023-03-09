@@ -19,22 +19,26 @@
 }
 
 .post__text {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
+    height: 90px;
     overflow: hidden;
 }
 
 
 @media screen and (min-width: 768px) {
-    .post {
-        flex-direction: row;
-    }
-    .post__text {
-        -webkit-line-clamp: 8 !important;
-    }
-    .post__img-article {
-        width: 50vw;
-        padding-right: 16px;
-    }
+  .post {
+    flex-direction: row;
+  }
+  .post__text {
+    height: 160px;
+  }
+  .post__img-article {
+    width: 50vw;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .post__text {
+    height: 200px;
+  }
 }

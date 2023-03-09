@@ -43,6 +43,12 @@
   margin: 16px 8px 8px;
 }
 
+.prices__button {
+  position: absolute;
+  left: 110px;
+  bottom: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .prices__list {
     margin: 0;
@@ -82,9 +88,10 @@
     background-color: rgba(0,0,0,0);
     margin: 0 0 0 32px;
   }
-  .prices__card-element {
-  }
   .prices__card--subtitle {
     display: none;
+  }
+  .prices__button {
+    position: static;
   }
 }
