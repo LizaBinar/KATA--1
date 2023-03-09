@@ -875,7 +875,8 @@ legend {
   padding: 16px; }
 
 .input--big {
-  height: 118px; }
+  height: 118px;
+  resize: none; }
 
 .show {
   width: 100vw !important; }
