@@ -10,7 +10,7 @@ const initMobileSwiper = function () {
         spaceBetween: 50,
         loop: true,
         pagination: {
-            el: ".swiper-pagination",
+            el: ".services-pagination",
             clickable: true
         },
         breakpoints: {
