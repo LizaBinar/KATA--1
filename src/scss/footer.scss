@@ -1,0 +1,36 @@
+.footer {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border-top: #D9FFF5 1px solid;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__text {
+  flex: 0 1 calc(33.33% - 30px);
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+
+  color: #7E7E82;
+
+  mix-blend-mode: normal;
+  opacity: 0.72;
+}
+
+@media screen and (min-width: 768px) {
+  .footer{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .footer__text:nth-child(1) {
+    text-align: left;
+  }
+  .footer__text:nth-child(3) {
+    text-align: right;
+  }
+}

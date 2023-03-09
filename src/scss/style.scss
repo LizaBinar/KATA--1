@@ -1,0 +1,47 @@
+@import 'address';
+@import 'aside';
+@import 'base-button';
+@import 'body-page';
+@import 'button-expand';
+@import 'connects-nav';
+@import 'fonts';
+@import 'glass';
+@import 'header';
+@import 'language-selection';
+@import 'mail';
+@import 'main-page';
+@import 'menu';
+@import 'multi-botton';
+@import 'nav-page';
+@import 'post';
+@import 'reset';
+@import 'services';
+@import 'swiper';
+@import 'tel';
+@import 'title';
+@import 'tools-nav';
+@import 'connects';
+@import 'footer';
+@import 'title-article';
+@import 'repairs';
+@import 'empty-button';
+@import 'prices';
+@import 'pagination';
+@import "color-text";
+@import "button-text";
+@import "order-call";
+@import "input";
+@import "show";
+@import "right-aside";
+@import "form";
+
+$bgColor: #F2F2F2;
+$text: #1B1C21;
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
