@@ -7,7 +7,7 @@
 
 .empty-button:hover {
   //background-color: rgb(255 62 121 / 27%);
-  box-shadow: 0 0 30px 0 rgb(251, 62, 119);
+  box-shadow: 0 0 30px 0 $baseColor;
 
   transform: scale(1.1);
 }
