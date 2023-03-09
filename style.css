@@ -94,7 +94,7 @@
 
 .base-button:hover {
   opacity: 0.9;
-  box-shadow: 0 0 50px 10px #FD3E78;
+  box-shadow: 0 0 50px 10px #FF3E79;
   transform: scale(1.1);
   transition: 0.2s; }
 
@@ -323,7 +323,11 @@
   display: none; }
 
 .nav-page__list {
-  display: flex; }
+  display: flex;
+  overflow-x: auto; }
+
+.nav-page__list::-webkit-scrollbar {
+  display: none; }
 
 @media screen and (min-width: 1023px) {
   .nav-page__list {
@@ -698,6 +702,9 @@ legend {
   letter-spacing: -0.2px;
   color: #1B1C21; }
 
+.repairs__block {
+  padding-left: 8px; }
+
 @media screen and (min-width: 768px) {
   .repairs__expand {
     display: flex !important; }
@@ -742,7 +749,7 @@ legend {
   transition-duration: 0.4s; }
 
 .empty-button:hover {
-  box-shadow: 0 0 30px 0 #fb3e77;
+  box-shadow: 0 0 30px 0 #FF3E79;
   transform: scale(1.1); }
 
 .prices__swiper {
@@ -786,6 +793,9 @@ legend {
   position: absolute;
   left: 110px;
   bottom: 15px; }
+
+.prices__page {
+  margin-left: 8px; }
 
 @media screen and (min-width: 768px) {
   .prices__list {
