@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 
-  <title>Webpack 4 Starter</title>
+  <title>Сайт для портфолио</title>
 <link href="style.css" rel="stylesheet"></head>
 <body class="body-page">
 
@@ -192,7 +192,7 @@
         Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
         количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
         очередь, советуют нас родным и близким.</p>
-      <button class="button-expand">
+      <button class="button-expand post__expand" data-click="false">
         <img src="./img/read_next.svg" class="button-expand__svg" alt="Читать далее">
         <span>Читать далее</span>
       </button>
@@ -295,7 +295,7 @@
             </div>
           </li>
         </ul>
-        <div class="pagination swiper-pagination"></div>
+        <div class="pagination services__pagination"></div>
       </div>
       <button class="services__expand button-expand" data-click="false">
         <img src="./img/read_next.svg" class="button-expand__svg" alt="Читать далее">
@@ -309,7 +309,7 @@
     <h4 class="title-article">Ремонт различных видов техники</h4>
 
     <div class="repairs__block">
-      <div class="repairs__swiper repairsSwiper">
+      <div class="swiper repairs__swiper repairsSwiper">
         <ul class="swiper-wrapper repairs__list">
           <li class="swiper-slide repairs__card">
             <p class="repairs__heading">Ремонт ноутбуков</p>
@@ -386,26 +386,26 @@
     <h4 class="title-article">Цены на услуги</h4>
 
     <div class="prices__page">
-      <div class="pricesSwiper">
+      <div class="swiper pricesSwiper">
         <div class="prices__field-legend">
-          <div class="prices__card-element">
+          <div class="">
             <span class="gray-text">Ремонтные услуги</span>
           </div>
-          <div class="prices__card-element">
+          <div class="">
             <span class="gray-text">Цена</span>
           </div>
-          <div class="prices__card-element">
+          <div class="">
             <span class="gray-text">Срок</span>
           </div>
         </div>
         <ul class="swiper-wrapper prices__list">
           <li class="swiper-slide">
             <div class="prices__card">
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Ремонтные услуги</span><br class="prices__card--subtitle">
                 <span>Тестирование с выдачей технического заключения</span>
               </div>
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Цена</span><br class="prices__card--subtitle">
                 <span>Бесплатно</span>
               </div>
@@ -413,7 +413,7 @@
                 <span class="gray-text prices__card--subtitle">Срок</span><br class="prices__card--subtitle">
                 <span>30-120 мин</span>
               </div>
-              <button class="button-text">
+              <button class="button-text prices__button">
                 <span class="button-text__text">Заказать</span>
                 <img src="./img/white_right.svg" alt="Купить">
               </button>
@@ -421,20 +421,20 @@
           </li>
           <li class="swiper-slide">
             <div class="prices__card">
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Ремонтные услуги</span><br class="prices__card--subtitle">
                 <span>Тестиро с выдачей технического заключения</span>
               </div>
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Цена</span><br class="prices__card--subtitle">
                 <span>Бесплатно</span>
               </div>
 
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Срок</span><br class="prices__card--subtitle">
                 <span>30-120 мин</span>
               </div>
-              <button class="button-text prices__card-element">
+              <button class="button-text prices__button">
                 <span class="button-text__text">Заказать</span>
                 <img src="./img/white_right.svg" alt="Купить">
               </button>
@@ -443,20 +443,20 @@
           </li>
           <li class="swiper-slide">
             <div class="prices__card">
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Ремонтные услуги</span><br class="prices__card--subtitle">
                 <span>Тестирование заключения</span>
               </div>
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Цена</span><br class="prices__card--subtitle">
                 <span>Бесплатно</span>
               </div>
 
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Срок</span><br class="prices__card--subtitle">
                 <span>30-120 мин</span>
               </div>
-              <button class="button-text prices__card-element">
+              <button class="button-text prices__button">
                 <span class="button-text__text">Заказать</span>
                 <img src="./img/white_right.svg" alt="Купить">
               </button>
@@ -465,20 +465,20 @@
           </li>
           <li class="swiper-slide">
             <div class="prices__card">
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Ремонтные услуги</span><br class="prices__card--subtitle">
                 <span>Тестирование с выдачей</span>
               </div>
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Цена</span><br class="prices__card--subtitle">
                 <span>Бесплатно</span>
               </div>
 
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Срок</span><br class="prices__card--subtitle">
                 <span>30-120 мин</span>
               </div>
-              <button class="button-text prices__card-element">
+              <button class="button-text prices__button">
                 <span class="button-text__text">Заказать</span>
                 <img src="./img/white_right.svg" alt="Купить">
               </button>
@@ -487,20 +487,20 @@
           </li>
           <li class="swiper-slide">
             <div class="prices__card">
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Ремонтные услуги</span><br class="prices__card--subtitle">
                 <span>Тесниеыдачей технического заключения</span>
               </div>
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Цена</span><br class="prices__card--subtitle">
                 <span>Бесплатно</span>
               </div>
 
-              <div class="prices__card-element">
+              <div class="">
                 <span class="gray-text prices__card--subtitle">Срок</span><br class="prices__card--subtitle">
                 <span>30-120 мин</span>
               </div>
-              <button class="button-text prices__card-element">
+              <button class="button-text prices__button">
                 <span class="button-text__text">Заказать</span>
                 <img src="./img/white_right.svg" alt="Купить">
               </button>
@@ -521,10 +521,10 @@
 
 
   <footer class="footer">
-    <p class="footer__text">© 2019 CPS<br>
-      Разработано командой Apesong </p>
-    <p class="footer__text">Политика конфиденциальности</p>
-    <p class="footer__text">Информация, размещенная на данной странице, не является публичной офертой</p>
+    <a href="#" class="footer__text">© 2019 CPS<br>
+      Разработано командой Apesong </a>
+    <a href="#" class="footer__text">Политика конфиденциальности</a>
+    <a href="#" class="footer__text">Информация, размещенная на данной странице, не является публичной офертой</a>
   </footer>
 
 </main>
@@ -542,8 +542,8 @@
     <form>
       <input type="text" name="number" class="input" placeholder="Телефон..." id="number">
     </form>
-    <p class="gray-text">Нажимая “отправить”, вы даете согласие на <span class="purple-text">обработку персональных данных и </span>соглашаетесь с нашей <span class="purple-text">политикой
-      конфиденциальности</span></p>
+    <p class="gray-text">Нажимая “отправить”, вы даете согласие на <a href="#" class="purple-text">обработку персональных данных и </a>соглашаетесь с нашей <a href="#" class="purple-text">политикой
+      конфиденциальности</a></p>
     <button class="button-text right-aside__button">
       <span class="button-text__text">отправить</span>
       <img src="./img/white_right.svg" alt="Отправить">
@@ -569,8 +569,8 @@
       <input type="text" name="mail" class="input" placeholder="Мыло..." id="feedback__mail">
       <input type="text" name="message" class="input input--big" placeholder="Сообщение..." id="feedback__message">
     </form>
-    <p class="gray-text">Нажимая “отправить”, вы даете согласие на <span class="purple-text">обработку персональных данных и </span>соглашаетесь с нашей <span class="purple-text">политикой
-      конфиденциальности</span></p>
+    <p class="gray-text">Нажимая “отправить”, вы даете согласие на <a href="#" class="purple-text">обработку персональных данных и </a>соглашаетесь с нашей <a href="#" class="purple-text">политикой
+      конфиденциальности</a></p>
     <button class="button-text right-aside__button">
       <span class="button-text__text">отправить</span>
       <img src="./img/white_right.svg" alt="Отправить">
