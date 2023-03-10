@@ -12,13 +12,13 @@
 }
 
 .aside__page {
+    @extend %asideShadow;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: $blockColor;
     width: 405px;
     height: 100vh;
-    box-shadow: -8px 0 50px 10px rgba(0,0,0,0.75);
 }
 
 .aside--show {

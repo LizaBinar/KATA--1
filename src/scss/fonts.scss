@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'TT Lakes';
+    font-family: $font;
     src: url('../../../../Desktop/KATA_web_core/src/fonts/TTLakes-Bold.eot');
     src: local('TT Lakes Bold'), local('TTLakes-Bold'),
     url('../../../../Desktop/KATA_web_core/src/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'TT Lakes';
+    font-family: $font;
     src: url('../../../../Desktop/KATA_web_core/src/fonts/TTLakesCondensed-Regular.eot');
     src: local('TT Lakes Condensed Regular'), local('TTLakesCondensed-Regular'),
     url('../../../../Desktop/KATA_web_core/src/fonts/TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-    font-family: 'TT Lakes';
+    font-family: $font;
     src: url('../../../../Desktop/KATA_web_core/src/fonts/TTLakes-Medium.eot');
     src: local('TT Lakes Medium'), local('TTLakes-Medium'),
     url('../../../../Desktop/KATA_web_core/src/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),

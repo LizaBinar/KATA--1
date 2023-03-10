@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: $blockColor;
 }
 
 .header__left-list {
@@ -42,7 +42,7 @@
   width: 2px;
   height: 32px;
   border-radius: 1px;
-  background: #EAEAEA;
+  background: $blockColor;
   position: absolute;
   left: 112px;
   margin-top: 10px;
@@ -62,7 +62,7 @@
     width: 2px;
     height: 32px;
     border-radius: 1px;
-    background: #EAEAEA;
+    background: $blockColor;
     position: absolute;
     left: -16px;
     margin-top: 10px;

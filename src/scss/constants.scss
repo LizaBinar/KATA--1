@@ -1,3 +1,13 @@
 $bgColor: #f6f6f6;
-$text: #1B1C21;
+$baseTextСolor: #111111;
+$secondaryTextСolor: #6a6a6a;
 $baseColor: #FF3E79;
+$secondColor: #41F6D7;
+$blockColor: #fff;
+$font: 'TT Lakes';
+
+
+%asideShadow {
+  box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.75);
+}
+

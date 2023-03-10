@@ -14,8 +14,10 @@
 }
 
 .right-aside__page {
+  @extend %asideShadow;
+
   padding: 16px 16px 16px 16px;
-  background-color: #ffffff;
+  background-color: $blockColor;
   width: 320px !important;
 
   display: flex;

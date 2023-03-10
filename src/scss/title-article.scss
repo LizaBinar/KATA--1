@@ -2,8 +2,8 @@
   display: flex;
   width: 100%;
   padding: 16px;
-  background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
-  border-top: 1px solid #D9FFF5;
+  background: linear-gradient(90deg, $bgColor 1.39%, $blockColor 100%);
+  border-top: 1px solid $secondColor;
 
   font-size: 16px;
   line-height: 24px;
@@ -12,7 +12,7 @@
   letter-spacing: -0.2px;
   text-transform: uppercase;
 
-  color: #7E7E82;
+  color: $secondaryTextСolor;
 }
 
 @media screen and (min-width: 768px){

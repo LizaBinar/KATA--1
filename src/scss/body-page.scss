@@ -1,6 +1,6 @@
 .body-page {
     background-color: $bgColor;
-    font-family: "TT Lakes", "Arial", serif;
+    font-family: $font, "Arial", serif;
     display: flex;
     flex-direction: column;
 }

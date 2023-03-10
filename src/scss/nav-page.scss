@@ -6,7 +6,7 @@
     align-items: center;
     overflow-x: auto;
     width: 100%;
-    color: #7E7E82;
+    color: $secondaryTextСolor;
     font-weight: 500;
 }
 
@@ -38,15 +38,15 @@
 
     font-size: 16px;
     line-height: 24px;
-    color: #7E7E82;
+    color: $secondaryTextСolor;
 
     border: 2px solid rgba(184, 255, 236, 0);
     background: rgba(255, 255, 255, 0);
 }
 
 .nav-page__link--active {
-    background: #ffffff;
-    border: 2px solid #B8FFEC;
+    background: $blockColor;
+    border: 2px solid $secondColor;
     border-radius: 6px;
     transition: 0.2s;
 }

@@ -2,7 +2,7 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  border-top: #D9FFF5 1px solid;
+  border-top: $secondColor 1px solid;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
@@ -16,7 +16,7 @@
   /* or 114% */
 
 
-  color: #7E7E82;
+  color: $secondaryTextСolor;
 
   mix-blend-mode: normal;
   opacity: 0.72;
