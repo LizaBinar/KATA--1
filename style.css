@@ -1,3 +1,6 @@
+.aside__page, .right-aside__page {
+  box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.75); }
+
 .address {
   display: flex;
   flex-direction: column;
@@ -20,8 +23,7 @@
   justify-content: space-between;
   background-color: #fff;
   width: 405px;
-  height: 100vh;
-  box-shadow: -8px 0 50px 10px rgba(0, 0, 0, 0.75); }
+  height: 100vh; }
 
 .aside--show {
   -webkit-animation: ani 1s forwards;
@@ -128,21 +130,21 @@
   gap: 15px; }
 
 @font-face {
-  font-family: 'TT Lakes';
+  font-family: "TT Lakes";
   src: url(./fonts/TTLakes-Bold.eot);
   src: local("TT Lakes Bold"), local("TTLakes-Bold"), url(./fonts/TTLakes-Bold.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Bold.woff) format("woff"), url(./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'TT Lakes';
+  font-family: "TT Lakes";
   src: url(./fonts/TTLakesCondensed-Regular.eot);
   src: local("TT Lakes Condensed Regular"), local("TTLakesCondensed-Regular"), url(./fonts/TTLakesCondensed-Regular.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakesCondensed-Regular.woff) format("woff"), url(./fonts/TTLakesCondensed-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'TT Lakes';
+  font-family: "TT Lakes";
   src: url(./fonts/TTLakes-Medium.eot);
   src: local("TT Lakes Medium"), local("TTLakes-Medium"), url(./fonts/TTLakes-Medium.eot?#iefix) format("embedded-opentype"), url(./fonts/TTLakes-Medium.woff) format("woff"), url(./fonts/TTLakes-Medium.ttf) format("truetype");
   font-weight: 500;
@@ -207,7 +209,7 @@
   width: 2px;
   height: 32px;
   border-radius: 1px;
-  background: #EAEAEA;
+  background: #fff;
   position: absolute;
   left: 112px;
   margin-top: 10px; }
@@ -222,7 +224,7 @@
     width: 2px;
     height: 32px;
     border-radius: 1px;
-    background: #EAEAEA;
+    background: #fff;
     position: absolute;
     left: -16px;
     margin-top: 10px; }
@@ -252,11 +254,11 @@
   transform: scale(1.2); }
 
 .language-selection__button--active {
-  color: #7d7d81; }
+  color: #6a6a6a; }
 
 .mail {
   text-decoration: none;
-  color: black; }
+  color: #111111; }
 
 .main-page {
   display: flex;
@@ -273,7 +275,7 @@
 
 .menu__link {
   text-decoration: none;
-  color: black;
+  color: #111111;
   position: relative;
   display: flex;
   align-items: center;
@@ -283,7 +285,7 @@
   transform: translate(5px, 0); }
 
 .menu__link--active {
-  color: #7d7d81;
+  color: #6a6a6a;
   transition-duration: 0.2s; }
 
 .menu__link--active::before {
@@ -292,7 +294,7 @@
   width: 20px;
   height: 32px;
   border-radius: 0 4px 4px 0;
-  background-color: #40f4d5;
+  background-color: #41F6D7;
   left: -40px; }
 
 .multi-button {
@@ -316,7 +318,7 @@
   align-items: center;
   overflow-x: auto;
   width: 100%;
-  color: #7E7E82;
+  color: #6a6a6a;
   font-weight: 500; }
 
 .nav-page::-webkit-scrollbar {
@@ -341,13 +343,13 @@
   margin-right: 16px;
   font-size: 16px;
   line-height: 24px;
-  color: #7E7E82;
+  color: #6a6a6a;
   border: 2px solid rgba(184, 255, 236, 0);
   background: rgba(255, 255, 255, 0); }
 
 .nav-page__link--active {
-  background: #ffffff;
-  border: 2px solid #B8FFEC;
+  background: #fff;
+  border: 2px solid #41F6D7;
   border-radius: 6px;
   transition: 0.2s; }
 
@@ -363,7 +365,7 @@
   margin-right: 16px;
   margin-left: 16px;
   margin-bottom: 16px;
-  color: #1B1C21;
+  color: #111111;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -484,8 +486,8 @@ legend {
   width: 100%;
   height: 72px;
   padding: 0 8px;
-  background: #FFFFFF;
-  border: 1px solid #EAEAEA;
+  background: #fff;
+  border: 1px solid #fff;
   border-radius: 6px; }
 
 .services__brands_list {
@@ -565,7 +567,7 @@ legend {
   bottom: 64px;
   right: 0;
   z-index: 1;
-  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%); }
+  background: linear-gradient(270deg, #f6f6f6 16.84%, rgba(248, 248, 248, 0.0001) 100%); }
 
 .swiper-pagination-bullet {
   width: 12px !important;
@@ -586,7 +588,7 @@ legend {
 .tel {
   font-weight: bold;
   text-decoration: none;
-  color: black; }
+  color: #111111; }
 
 .title {
   font-size: 28px;
@@ -616,7 +618,7 @@ legend {
     width: 2px;
     height: 32px;
     border-radius: 1px;
-    background: #EAEAEA;
+    background: #fff;
     position: absolute;
     left: -16px;
     margin-top: 6px; } }
@@ -633,7 +635,7 @@ legend {
   padding: 25px;
   display: flex;
   flex-direction: column;
-  border-top: #D9FFF5 1px solid;
+  border-top: #41F6D7 1px solid;
   justify-content: space-between;
   align-items: center;
   gap: 16px; }
@@ -644,7 +646,7 @@ legend {
   font-size: 14px;
   line-height: 16px;
   /* or 114% */
-  color: #7E7E82;
+  color: #6a6a6a;
   mix-blend-mode: normal;
   opacity: 0.72; }
 
@@ -661,14 +663,14 @@ legend {
   display: flex;
   width: 100%;
   padding: 16px;
-  background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
-  border-top: 1px solid #D9FFF5;
+  background: linear-gradient(90deg, #f6f6f6 1.39%, #fff 100%);
+  border-top: 1px solid #41F6D7;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
   letter-spacing: -0.2px;
   text-transform: uppercase;
-  color: #7E7E82; }
+  color: #6a6a6a; }
 
 @media screen and (min-width: 768px) {
   .title-article {
@@ -678,8 +680,8 @@ legend {
   height: 160px !important;
   display: flex !important;
   justify-content: space-between;
-  background: #FFFFFF;
-  border: 1px solid #EAEAEA;
+  background: #fff;
+  border: 1px solid #fff;
   border-radius: 6px; }
 
 .repairs__button {
@@ -700,7 +702,7 @@ legend {
   line-height: 24px;
   /* identical to box height, or 150% */
   letter-spacing: -0.2px;
-  color: #1B1C21; }
+  color: #111111; }
 
 .repairs__block {
   padding-left: 8px; }
@@ -714,8 +716,8 @@ legend {
     height: 116px !important;
     display: flex !important;
     justify-content: space-between;
-    background: #FFFFFF;
-    border: 1px solid #EAEAEA;
+    background: #fff;
+    border: 1px solid #fff;
     border-radius: 6px; }
   .repairs__list {
     display: flex;
@@ -763,7 +765,7 @@ legend {
   padding: 8px;
   height: 184px !important;
   border-radius: 6px;
-  background-color: #fdfdfd; }
+  background-color: #fff; }
 
 .prices__info {
   max-width: 421px;
@@ -771,7 +773,7 @@ legend {
   line-height: 20px;
   letter-spacing: 0.2px;
   margin-top: 32px;
-  color: #1B1C21; }
+  color: #111111; }
 
 .prices__right {
   margin-top: 7px; }
@@ -800,7 +802,7 @@ legend {
 @media screen and (min-width: 768px) {
   .prices__list {
     margin: 0;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 6px; }
   .prices__field-legend {
     padding: 8px;
@@ -821,7 +823,7 @@ legend {
     margin-right: 16px;
     margin-left: 16px; }
   .prices__card {
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #fff;
     display: grid !important;
     grid-template-columns: 1.9fr 0.7fr 0.7fr 0.7fr;
     grid-template-rows: 1fr;
@@ -846,7 +848,7 @@ legend {
     display: none; } }
 
 .gray-text {
-  color: #7E7E82; }
+  color: #6a6a6a; }
 
 .purple-text {
   color: #FF3E79; }
@@ -870,15 +872,15 @@ legend {
   text-align: right;
   letter-spacing: -0.15px;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #fff; }
 
 @media screen and (min-width: 768px) {
   .button-text {
     position: static; } }
 
 .input {
-  background: #FFFFFF;
-  border: 1px solid #EAEAEA;
+  background: #fff;
+  border: 1px solid #fff;
   width: 100%;
   border-radius: 8px;
   height: 48px;
@@ -905,7 +907,7 @@ legend {
 
 .right-aside__page {
   padding: 16px 16px 16px 16px;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 320px !important;
   display: flex;
   flex-direction: column;
