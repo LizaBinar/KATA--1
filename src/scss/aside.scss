@@ -69,14 +69,14 @@
     float: left;
     position: static;
     box-shadow: none;
-    min-width: 320px;
-    width: 320px;
+    width: 27vw;
     overflow-x: initial;
   }
   .aside__page{
     box-shadow: 0 0 0 0 rgba(34, 60, 80, 0.2);
     position: sticky;
     top: 0;
+    width: 27vw;
   }
   .aside__glass {
     display: none;

@@ -4,10 +4,19 @@ $secondaryTextСolor: #6a6a6a;
 $baseColor: #FF3E79;
 $secondColor: #41F6D7;
 $blockColor: #fff;
+$lineColor: #c0c0c0;
+$glassColor: rgba(255, 255, 255, 0.68);
 $font: 'TT Lakes';
 
 
 %asideShadow {
   box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.75);
+}
+
+
+%hoverCard {
+  transform: scale(0.99) !important;
+  transition: 0.1s;
+  border: 1px solid $lineColor;
 }
 

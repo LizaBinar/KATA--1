@@ -1,7 +1,7 @@
 .menu__list {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 5px;
     height: 100%;
     padding-left: 24px;
 }
@@ -34,4 +34,10 @@
     background-color: $secondColor;
 
     left: -40px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__list {
+    gap: 14px
+  }
 }

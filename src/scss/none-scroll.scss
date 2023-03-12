@@ -1,0 +1,13 @@
+.none-scroll {
+  position: fixed;
+  overflow:hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .none-scroll {
+    top: auto;
+    right: 0;
+    width: 100vw - 27vw;
+  }
+}
+

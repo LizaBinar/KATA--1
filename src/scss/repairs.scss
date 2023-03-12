@@ -1,5 +1,5 @@
-.repairs {
-
+.repairs__list {
+  margin-top: 8px;
 }
 
 .repairs__card {
@@ -11,6 +11,12 @@
   background: $blockColor;
   border: 1px solid $blockColor;
   border-radius: 6px;
+
+  transition: 0.3s;
+}
+
+.repairs__card:hover {
+  @extend %hoverCard;
 }
 
 .repairs__button {
@@ -50,7 +56,7 @@
   }
   .repairs__card {
     padding: 24px;
-    width: 200px !important;
+    width: 156px !important;
     height: 116px !important;
 
     display: flex !important;
@@ -66,7 +72,7 @@
     flex-wrap: wrap;
     gap: 24px;
     overflow: hidden;
-    height: 165px !important;
+    height: 170px !important;
   }
   .repairs__block {
     padding-left: 24px;

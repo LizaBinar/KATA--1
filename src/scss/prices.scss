@@ -33,6 +33,13 @@
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #1B1C21;
+  font-weight: bold;
+
+  transition: 0.3s !important;
+}
+
+.prices__offer:hover {
+  color: $baseColor;
 }
 
 .prices__field-legend {
@@ -80,7 +87,7 @@
     margin-left: 16px;
   }
   .prices__card {
-    border-bottom: 1px solid $blockColor;
+    border-bottom: 1px solid $lineColor;
     display: grid !important;
     grid-template-columns: 1.9fr 0.7fr 0.7fr 0.7fr;
     grid-template-rows: 1fr;

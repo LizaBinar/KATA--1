@@ -16,13 +16,19 @@
   justify-content: space-between;
   align-items: center;
 
-  width: 100%;
+  width: 200px;
   height: 72px;
 
   padding: 0 8px;
   background: $blockColor;
   border: 1px solid $blockColor;
   border-radius: 6px;
+
+  transition: 0.3s;
+}
+
+.services__card:hover {
+  @extend %hoverCard;
 }
 
 .services__brands_list {
