@@ -88,6 +88,10 @@
   .aside__glass {
     display: none; } }
 
+@media screen and (min-width: 1340px) {
+  .aside {
+    width: 23vw; } }
+
 .base-button {
   display: flex;
   justify-content: center;
@@ -544,7 +548,7 @@ legend {
   .services__list {
     overflow: hidden;
     height: 165px !important;
-    gap: 16px 32px; }
+    gap: 16px 24px; }
   .services__element {
     height: 72px !important; }
   .services__title {
