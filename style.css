@@ -558,10 +558,7 @@ legend {
 
 @media screen and (min-width: 1012px) {
   .services__element:nth-child(n - 9) {
-    display: flex; }
-  /*.services__element:nth-child(n + 9) {*/
-  /*    display: none;*/
-  /*}*/ }
+    display: flex; } }
 
 @media screen and (min-width: 1120px) {
   .services__element {
@@ -605,8 +602,7 @@ legend {
     width: 100%; }
   .swiper-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    /*gap: 16px 24px;*/ } }
+    flex-wrap: wrap; } }
 
 .tel {
   font-weight: bold;
@@ -668,7 +664,6 @@ legend {
   text-align: center;
   font-size: 14px;
   line-height: 16px;
-  /* or 114% */
   color: #6a6a6a;
   mix-blend-mode: normal;
   opacity: 0.72; }
@@ -690,7 +685,6 @@ legend {
   border-top: 1px solid #41F6D7;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: -0.2px;
   text-transform: uppercase;
   color: #6a6a6a; }
@@ -727,7 +721,6 @@ legend {
   margin-top: 24px;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: -0.2px;
   color: #111111; }
 
@@ -764,8 +757,7 @@ legend {
     gap: 24px; }
   .swiper-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    /*gap: 16px 24px;*/ }
+    flex-wrap: wrap; }
   .repairs__button {
     margin: 0; }
   .repairs__heading {
@@ -905,7 +897,6 @@ legend {
 .button-text__text {
   font-size: 12px;
   line-height: 24px;
-  /* identical to box height, or 200% */
   text-align: right;
   letter-spacing: -0.15px;
   text-transform: uppercase;
