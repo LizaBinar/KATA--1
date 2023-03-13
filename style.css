@@ -992,6 +992,12 @@ legend {
     right: 0;
     width: 73vw; } }
 
+@media screen and (min-width: 1340px) {
+  .none-scroll {
+    top: auto;
+    right: 0;
+    width: 77vw; } }
+
 html {
   box-sizing: border-box; }
 
