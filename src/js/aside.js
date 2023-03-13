@@ -9,6 +9,7 @@ export function removeAllShow() {
 let buttons = document.querySelectorAll('.hide')
 
 function  flexNav() {
+  console.log('this.event.currentTarget')
   removeAllShow()
 }
 

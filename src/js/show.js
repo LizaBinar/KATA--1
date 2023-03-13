@@ -1,8 +1,6 @@
 import { removeAllShow } from "./aside"
 
 function  show(menu) {
-  console.log(menu)
-  removeAllShow()
   menu.classList.toggle("show")
   const mainPage = document.querySelector(".main-page")
   mainPage.classList.add("none-scroll")
